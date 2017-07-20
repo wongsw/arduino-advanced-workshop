@@ -1,12 +1,14 @@
-/*  Creates a LED circuit that turns on more light when it's darker
- *  Uses Light Dependent Resistor (LDR) 
- *  By Song Wei  
+/*  LDR sensor demo code for RExPerience '17
+ *   Creates a LED circuit that turns on more light when it's darker
+ *   utilizes Light Dependent Resistor (LDR) 
+ *   
+ *   Modified By Song Wei 7 July 2017
  */
 
 #define LDR A0 // A0
-#define LED1 12 // GPIO 12
+#define LED1 0 // GPIO 0
 #define LED2 13 // GPIO 13
-#define LED3 0 //GPIO 0
+#define LED3 12 //GPIO 12
 
 int val = 0;  //define analog variable val
 

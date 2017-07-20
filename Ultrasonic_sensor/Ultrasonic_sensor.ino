@@ -1,11 +1,14 @@
-/*    Lights up different LEDs based on proximity of object
- *    Utilizes ultrasonic sensor HC-SR04
- *    Based on http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/
- *    Adapted by Song Wei
+
+/* Ultrasonic sensor demo code for RExPerience '17
+ *  Lights up different LEDs based on proximity of object
+ *  utilizes ultrasonic sensor HC-SR04
+ *  
+ *  Based on http://www.instructables.com/id/Simple-Arduino-and-HC-SR04-Example/
+ *  Modified by Song Wei 7 July 2017
  */
  
-#define trigPin 5 // GPIO 5
-#define echoPin 4 // GPIO 4
+#define trigPin 5 // GPIO5
+#define echoPin 4 // GPIO4
 #define greenLED 12
 #define yellowLED 13
 #define redLED 0
